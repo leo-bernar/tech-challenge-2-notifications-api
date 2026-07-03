@@ -1,0 +1,11 @@
+@FCG.Notifications.Api_HostAddress = http://localhost:5212
+
+GET {{FCG.Notifications.Api_HostAddress}}/
+Accept: application/json
+
+###
+
+GET {{FCG.Notifications.Api_HostAddress}}/health
+Accept: application/json
+
+###

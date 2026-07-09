@@ -52,8 +52,8 @@ Credenciais nao devem ser adicionadas ao `appsettings.json`.
 Defina as credenciais do broker:
 
 ```bash
-export RabbitMq__Username=guest
-export RabbitMq__Password=guest
+export RabbitMq__Username='<rabbitmq-username>'
+export RabbitMq__Password='<rabbitmq-password>'
 ```
 
 Execute:
